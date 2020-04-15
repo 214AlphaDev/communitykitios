@@ -1,0 +1,73 @@
+PODS:
+  - Apollo (0.10.0):
+    - Apollo/Core (= 0.10.0)
+  - Apollo/Core (0.10.0)
+  - CommunityKit (0.0.2):
+    - Apollo (= 0.10.0)
+    - FlowKit (= 0.0.2)
+    - JWTDecode (= 2.2.0)
+    - KeychainAccess (= 3.1.2)
+    - RealmSwift (= 3.16.1)
+    - Sodium (= 0.8.0)
+  - FlowKit (0.0.2)
+  - JWTDecode (2.2.0)
+  - KeychainAccess (3.1.2)
+  - Nimble (7.3.4)
+  - Quick (1.3.4)
+  - Realm (3.16.1):
+    - Realm/Headers (= 3.16.1)
+  - Realm/Headers (3.16.1)
+  - RealmSwift (3.16.1):
+    - Realm (= 3.16.1)
+  - Sodium (0.8.0)
+
+DEPENDENCIES:
+  - Apollo (= 0.10.0)
+  - CommunityKit (from `.`)
+  - "FlowKit (from `git@gitlab.com:214alpha/utilities/flowkit.git`, commit `641d8c945c4cf209bb321bed9129bdd719d795b8`)"
+  - JWTDecode (= 2.2.0)
+  - KeychainAccess (= 3.1.2)
+  - Nimble
+  - Quick
+  - RealmSwift (= 3.16.1)
+  - Sodium (= 0.8.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Apollo
+    - JWTDecode
+    - KeychainAccess
+    - Nimble
+    - Quick
+    - Sodium
+  trunk:
+    - Realm
+    - RealmSwift
+
+EXTERNAL SOURCES:
+  CommunityKit:
+    :path: "."
+  FlowKit:
+    :commit: 641d8c945c4cf209bb321bed9129bdd719d795b8
+    :git: "git@gitlab.com:214alpha/utilities/flowkit.git"
+
+CHECKOUT OPTIONS:
+  FlowKit:
+    :commit: 641d8c945c4cf209bb321bed9129bdd719d795b8
+    :git: "git@gitlab.com:214alpha/utilities/flowkit.git"
+
+SPEC CHECKSUMS:
+  Apollo: aa9b870203900b9526332ea3d12c37b4dc6ce1b9
+  CommunityKit: 311bc7195b583b6ffdb9bc2dbdd660ebfe2d4876
+  FlowKit: 3cad66ad0fcbc997f643d36dfe4c4b8207ff2f8d
+  JWTDecode: 85a405ab16d5473e99bd89ded1d535090ebd6a0e
+  KeychainAccess: b3816fddcf28aa29d94b10ec305cd52be14c472b
+  Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
+  Quick: f4f7f063c524394c73ed93ac70983c609805d481
+  Realm: 601cacc51d8be3b17a377ef787be0f6ee0e76cf1
+  RealmSwift: 486f2e09d5a8ccff63ed66e48d0846b111deb5e5
+  Sodium: 63c0ca312a932e6da481689537d4b35568841bdc
+
+PODFILE CHECKSUM: 5b332792870be29034d16eec3b48996fefb09af1
+
+COCOAPODS: 1.8.0.beta.2

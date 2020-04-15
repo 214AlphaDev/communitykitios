@@ -1,0 +1,3 @@
+mutation RequestLogin($emailAddress: EmailAddress!) {
+  requestLogin(emailAddress: $emailAddress)
+}

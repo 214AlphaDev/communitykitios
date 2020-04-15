@@ -1,0 +1,17 @@
+mutation RejectApplication($id: UUIDV4!, $reason: String!) {
+  rejectApplication(input: { applicationID: $id, rejectionReason: $reason }) {
+    application {
+      member {
+        id
+      },
+      id, 
+      applicationText,
+      state,
+      createdAt,
+      rejectionReason,
+      rejectedAt,
+      approvedAt,
+    },
+    error
+  }
+}

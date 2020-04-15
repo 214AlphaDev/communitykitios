@@ -1,0 +1,17 @@
+mutation ApproveApplication($id: UUIDV4!) {
+  approveApplication(applicationID: $id) {
+    application {
+      member {
+        id
+      },
+      id, 
+      applicationText,
+      state,
+      createdAt,
+      rejectionReason,
+      rejectedAt,
+      approvedAt,
+    },
+    error
+  }
+}

@@ -1,0 +1,16 @@
+mutation SignUp($input: SignUpInput!) {
+  signUp(input: $input) {
+    member{
+      id,
+      username,
+      emailAddress,
+      name{
+        firstName,
+        lastName
+      },
+      profilePicture,
+      admin,
+    },
+    error
+  }
+}

@@ -1,0 +1,25 @@
+query Applications($fromId: UUIDV4, $count: Int!, $state: ApplicationState!) {
+  applications(position: $fromId, next: $count, state: $state) {
+    error,
+    applications {
+      member {
+        id,
+        name {
+          firstName,
+          lastName
+        },
+        username,
+        profilePicture,
+        admin,
+        emailAddress
+      },
+      id,
+      applicationText,
+      state,
+      createdAt,
+      rejectionReason,
+      rejectedAt,
+      approvedAt,
+    }
+  }
+}

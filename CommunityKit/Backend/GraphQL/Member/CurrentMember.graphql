@@ -1,0 +1,13 @@
+query CurrentMember {
+  myMember {
+    id,
+    name {
+      firstName,
+      lastName,
+    }
+    username,
+    profilePicture,
+    admin,
+    emailAddress,
+  }
+}

@@ -1,0 +1,17 @@
+mutation ApplyForVerification($applicationText: String!) {
+  applyForVerification(applicationText: $applicationText) {
+    application {
+      member {
+        id
+      },
+      id, 
+      applicationText,
+      state,
+      createdAt,
+      rejectionReason,
+      rejectedAt,
+      approvedAt,
+    },
+    error
+  }
+}

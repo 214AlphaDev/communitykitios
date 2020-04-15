@@ -1,0 +1,14 @@
+query MyCurrentApplication {
+  myCurrentApplication {
+    member {
+        id
+    },
+    id, 
+    applicationText,
+    state,
+    createdAt,
+    rejectionReason,
+    rejectedAt,
+    approvedAt,
+  }
+}
