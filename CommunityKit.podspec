@@ -13,6 +13,6 @@ Pod::Spec.new do |s|
   s.dependency 'Sodium', '0.8.0'
   s.dependency 'KeychainAccess', '3.1.2'
   s.dependency 'JWTDecode', '2.2.0'
-  s.dependency 'RealmSwift', '3.16.1'
+  s.dependency 'RealmSwift', '3.20.0'
   s.dependency 'FlowKit', '0.0.2'
 end
