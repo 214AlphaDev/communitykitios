@@ -6,8 +6,8 @@ target 'CommunityKit' do
   pod 'Sodium', '0.8.0'
   pod 'KeychainAccess', '3.1.2'
   pod 'JWTDecode', '2.2.0'
-  pod 'RealmSwift', '3.16.1'
-  pod 'FlowKit', :git => 'git@gitlab.com:214alpha/utilities/flowkit.git', :commit => '641d8c945c4cf209bb321bed9129bdd719d795b8'
+  pod 'RealmSwift', '~> 3.20.0'
+  pod 'FlowKit', :git => 'git@github.com:214AlphaDev/flowkit.git', :branch => 'master'
 end
 
 target 'CommunityKitDemo' do
